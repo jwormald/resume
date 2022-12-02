@@ -161,8 +161,13 @@ body {
     margin-bottom: 5rem;
 }
 
-.hx p {
+.hx li {
     color: var(--col-white-off);
+    list-style: disc;
+}
+
+.hx ul {
+    margin-bottom: 3rem;
 }
 
 .ed {
@@ -210,6 +215,7 @@ footer h2 {
 .contact h5 { 
     margin-bottom: 5rem;
     position: relative;
+    color: var(--col-white);
 }
 
 /* TODO .pulse {
@@ -262,6 +268,10 @@ footer h2 {
     }
     h1 {
         font-size: 7rem;
+    }
+
+    .nav h3 {
+        margin-left: 3rem;
     }
 
     .main {     
